@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
 :root {
-	--bg-color: #1F2530;
+	--bg-color: #1f2530;
+	--font-family: "Poppins", sans-serif;
 }
 
 * {
@@ -13,8 +16,27 @@ html {
 }
 
 body {
-	background-color: var(--bg-color);
+	/* background-color: var(--bg-color); */
+	font-family: var(--font-family);
 	color: white;
+	
+	/* ff 3.6+ */
+	background: -moz-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+
+	/* safari 5.1+,chrome 10+ */
+	background: -webkit-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+
+	/* opera 11.10+ */
+	background: -o-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+
+	/* ie 6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28303F', endColorstr='#1F2530', GradientType=1 );
+
+	/* ie 10+ */
+	background: -ms-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+
+	/* global 94%+ browsers support */
+	background: linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
 }
 
 a {

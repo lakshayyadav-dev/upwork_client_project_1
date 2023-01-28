@@ -1,12 +1,14 @@
 .container {
-    height: 95vh;
-    width: 750px;
+    height: 65vh;
+    width: 650px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 0 5rem;
+    padding-left: 7rem;
+    /* padding: 0 5rem; */
     row-gap: 2.5rem;
+    margin-top: 7rem;
 }
 
 .content {
@@ -16,12 +18,13 @@
 }
 
 .content h1 {
+    font-size: 48px;
     letter-spacing: 5px;
 }
 
 .content p {
     color: #647290;
-    line-height: 23px;
+    line-height: 28px;
 }
 
 .CTA {
@@ -58,4 +61,35 @@
 
     text-transform: uppercase;
     letter-spacing: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 450px;
+        padding: 0 2rem;
+    }
+    .content p {
+        /* line-height: 23px; */
+        font-size: 14px;
+    }
+
+    .CTA button {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        width: 100%;
+    }
+    .container h1 {
+        font-size: 32px;
+    }
+    .content p {
+        line-height: 23px;
+        font-size: 13px;
+    }
+    .CTA button {
+        font-size: 0.5rem;
+    }
 }

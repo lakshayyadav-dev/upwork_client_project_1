@@ -1,9 +1,29 @@
+.mainContainer {
+    height: 100vh;
+}
+
+/* .imgHolder {
+    position: fixed;
+    height: 200%;
+    width: 100%;
+} */
+
 .robotImage {
-    position: absolute;
-    right: 0px;
-    top: 0;
-    width: 50%;
-    height: 150%;
-    aspect-ratio: 16 / 9;
+    position: fixed;
+    right: 0;
+    /* top: 15%; */
+    /* width: 50%; */
+    width: fit-content;
+    height: 125%;
+    /* height: 150%; */
+
+    top: 0%;
     z-index: -20;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 960px) {
+    .robotImage {
+        display: none;
+    }
 }
