@@ -17,9 +17,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 
-			<div className={styles.imgHolder}>
-				<Image src={robot} alt="robot" className={styles.robotImage} />
-			</div>
+			<Image src={robot} alt="robot" className={styles.robotImage} />
 
 			<Navbar />
 

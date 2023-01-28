@@ -3,6 +3,8 @@
 :root {
 	--bg-color: #1f2530;
 	--font-family: "Poppins", sans-serif;
+	--secondary: #647290;
+	--subheading: #2a9cb9;
 }
 
 * {
@@ -42,4 +44,8 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+button {
+	cursor: pointer;
 }

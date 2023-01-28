@@ -23,7 +23,7 @@
 }
 
 .content p {
-    color: #647290;
+    color: var(--secondary);
     line-height: 28px;
 }
 
@@ -54,7 +54,7 @@
     color: white;
     border: none;
     outline: none;
-    width: 50%;
+    /* width: 50%; */
     padding: 15px;
     font-size: 1rem;
     border-radius: 50px;

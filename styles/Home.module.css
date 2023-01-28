@@ -2,24 +2,24 @@
     height: 100vh;
 }
 
-/* .imgHolder {
-    position: fixed;
-    height: 200%;
-    width: 100%;
-} */
-
 .robotImage {
-    position: fixed;
-    right: 0;
-    /* top: 15%; */
-    /* width: 50%; */
-    width: fit-content;
-    height: 125%;
-    /* height: 150%; */
-
-    top: 0%;
+    /* position: fixed; */
+    /* object-fit: cover; */
+    position: absolute;
+    /* top: -61.5%; */
+    /* right: -24.5%; */
+    /* transform: scale(0.55); */
     z-index: -20;
-    object-fit: cover;
+
+    transform-origin: top right;
+    right: 0;
+    top: 15%;
+
+    right: 0;
+    top: 15%;
+
+    width: 55%;
+    height: 163%;
 }
 
 @media screen and (max-width: 960px) {
