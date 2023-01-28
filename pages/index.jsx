@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
+import robot from "../static/images/robot.png";
 
 export default function Home() {
 	return (
@@ -11,7 +13,10 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 
+			<Image src={robot} alt="robot" className={styles.robotImage}/>
+
 			<Navbar />
+			
 		</>
 	);
 }

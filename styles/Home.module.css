@@ -1,0 +1,9 @@
+.robotImage {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 50%;
+    height: 150%;
+    aspect-ratio: 16 / 9;
+    z-index: -20;
+}
