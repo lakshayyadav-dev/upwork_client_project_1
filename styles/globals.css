@@ -21,24 +21,25 @@ body {
 	/* background-color: var(--bg-color); */
 	font-family: var(--font-family);
 	color: white;
-	
+
 	/* ff 3.6+ */
-	background: -moz-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+    background:-moz-linear-gradient(0deg, rgba(48, 56, 76, 1) 0%, rgba(32, 37, 50, 1) 100%); 
 
-	/* safari 5.1+,chrome 10+ */
-	background: -webkit-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(0deg, rgba(48, 56, 76, 1) 0%, rgba(32, 37, 50, 1) 100%);
 
-	/* opera 11.10+ */
-	background: -o-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+    /* opera 11.10+ */
+    background:-o-linear-gradient(0deg, rgba(48, 56, 76, 1) 0%, rgba(32, 37, 50, 1) 100%);
 
-	/* ie 6-9 */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#28303F', endColorstr='#1F2530', GradientType=1 );
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30384C', endColorstr='#202532', GradientType=1 );
 
-	/* ie 10+ */
-	background: -ms-linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+    /* ie 10+ */
+    background:-ms-linear-gradient(0deg, rgba(48, 56, 76, 1) 0%, rgba(32, 37, 50, 1) 100%);
 
-	/* global 94%+ browsers support */
-	background: linear-gradient(0deg, rgba(40, 48, 63, 1) 0%, rgba(31, 37, 48, 1) 100%);
+    /* global 94%+ browsers support */
+    background:linear-gradient(0deg, rgba(48, 56, 76, 1) 0%, rgba(32, 37, 50, 1) 100%);
+	
 }
 
 a {
