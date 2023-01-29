@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 1440px) {
     .cardContent {
-        text-shadow: 2px 2px 5px black;
+        text-shadow: 1px 1px 5px black;
     }
 }
 
@@ -63,10 +63,10 @@
     .card {
         width: 45%;
     }
-
+/* 
     .cardContent {
         text-shadow: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 760px) {

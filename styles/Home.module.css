@@ -44,7 +44,7 @@
 }
 @media screen and (max-width: 960px) {
     .headImg {
-        display: none;
+        /* display: none; */
         width: 150vw;
         right: -80%;
     }
