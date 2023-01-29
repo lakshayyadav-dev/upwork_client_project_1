@@ -1,12 +1,9 @@
 import React from "react";
 import styles from "../styles/Hero.module.css";
-import Image from "next/image";
-import robot from "../static/images/upscaled_robot.png";
 
 const Hero = () => {
 	return (
 		<div className={styles.container}>
-			{/* <Image src={robot} alt="robot" className={styles.robotImage} /> */}
 
 			<div className={styles.content}>
 				<h1>PUIT ARCK</h1>

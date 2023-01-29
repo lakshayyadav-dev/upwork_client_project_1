@@ -2,11 +2,11 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
 
-import robot from "../static/images/upscaled_robot.png";
+import head from "../static/images/head_upscaled.png";
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Cards from "@/components/Cards";
+import Cards from "@/components/Cards.jsx";
 
 export default function Home() {
 	return (
@@ -24,7 +24,7 @@ export default function Home() {
 					<Hero />
 					<Cards />
 				</div>
-				<Image src={robot} alt="robot" className={styles.robotImage} priority/>
+				<Image src={head} alt="robot" className={styles.headImg} priority/>
 			</div>
 
 		</>

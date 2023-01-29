@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Cards.module.css";
 import Image from "next/image";
-import data from "./cards";
+import data from "./cards_data";
 
 const Cards = () => {
 	return (

@@ -12,7 +12,7 @@
 }
 
 
-.robotImage {
+.headImg {
     position: absolute;
     object-fit: contain;
 
@@ -29,14 +29,14 @@
 }
 
 @media screen and (max-width: 1440px) {
-    .robotImage {
+    .headImg {
         width: 65vw;
         opacity: 0.35;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .robotImage {
+    .headImg {
         width: 85vw;
         opacity: 0.35;
         right: -25%;
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .robotImage {
+    .headImg {
         /* display: none; */
         width: 250vw;
         right: -150%;
