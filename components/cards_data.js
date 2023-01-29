@@ -1,4 +1,4 @@
-import placeholder from "../static/images/placeholder.png";
+import placeholder from "../static/images/placeholder_1.png";
 
 const data = [
     {
