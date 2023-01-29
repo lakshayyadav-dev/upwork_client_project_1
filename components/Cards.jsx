@@ -22,7 +22,7 @@ const Card = () => (
 		<div className={styles.cardContent}>
 			<h3>Lorem ipsum</h3>
 			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, nam? Lorem ipsum dolor sit amet.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, nam? Lorem ipsum dolor.
 			</p>
 		</div>
 	</div>

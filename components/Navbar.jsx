@@ -20,8 +20,8 @@ const Navbar = () => {
 					<a href="#">lorem</a>
 				</div>
 				<div className={styles.burger} onClick={() => setShowLinks((prevValue) => !prevValue)}>
-					<div />
-					<div />
+					<div style={{transform: showLinks ? "rotate(45deg) translateY(5px)" : "rotate(0deg)  translateY(0px)", transition: "all 0.2s ease-in-out"}}/>
+					<div style={{transform: showLinks ? "rotate(-45deg)  translateY(-5px)" : "rotate(0deg)  translateY(0px)", transition: "all 0.2s ease-in-out"}}/>
 				</div>
 
 				{showLinks && (

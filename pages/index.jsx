@@ -17,12 +17,16 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 			</Head>
 
-			<Image src={robot} alt="robot" className={styles.robotImage} />
 
-			<Navbar />
+			<div className={styles.contentContainer}>
+				<div>
+					<Navbar />
+					<Hero />
+					<Cards />
+				</div>
+				<Image src={robot} alt="robot" className={styles.robotImage} />
+			</div>
 
-			<Hero />
-			<Cards />
 		</>
 	);
 }
