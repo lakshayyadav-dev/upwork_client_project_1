@@ -42,11 +42,23 @@
         right: -25%;
     }
 }
-
 @media screen and (max-width: 960px) {
     .headImg {
         /* display: none; */
-        width: 250vw;
-        right: -150%;
+        width: 150vw;
+        right: -80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .headImg {
+        width: 205vw;
+        right: -125%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .headImg {
+        width: 300vw;
+        right: -200%;
     }
 }
