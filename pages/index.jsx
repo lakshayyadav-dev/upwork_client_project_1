@@ -24,7 +24,7 @@ export default function Home() {
 					<Hero />
 					<Cards />
 				</div>
-				<Image src={robot} alt="robot" className={styles.robotImage} />
+				<Image src={robot} alt="robot" className={styles.robotImage} priority/>
 			</div>
 
 		</>
